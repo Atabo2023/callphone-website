@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: fit-content;
+  height: 460px;
+  background-color: #e5effd;
+  display: flex;
+  padding: 30px;
+  margin: auto;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.primary-box {
+  width: Fill (534px);
+  height: Hug (225px);
+  gap: 24px;
+}
+
+.heading-primary {
+  width: 534px;
+  line-height: 225px;
+  font-family: "Rubik", "Rubik";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -2%;
+  text-align: left;
+  color: #000000;
+  gap: 22px;
+  row-gap: 24px;
+}
+
+span {
+  font-family: Satoshi;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-decoration: 2.5px underline #4834d4;
+  color: #4834d4;
+}
+
+.heading-text {
+  width: 534px;
+  height: 96px;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #565555;
+  margin-top: 20px;
+}
+
+.general {
+  width: 550px;
+  height: 369px;
+  top: 147px;
+  left: 80px;
+  gap: 50px;
+  font-family: "Rubik", sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  top: 129px;
+  left: 911px;
+  background-image: url(illustration.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
